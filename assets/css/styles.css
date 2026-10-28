@@ -2209,9 +2209,6 @@ ul {
     grid-template-columns: 1fr 1fr;
     gap: 2.5rem;
   }
-}
-
-@media (max-width: 768px) {
   .mobile-menu-toggle {
     display: block;
   }
@@ -2223,13 +2220,19 @@ ul {
     background: var(--bg-surface);
     flex-direction: column;
     padding: 2rem 1.5rem;
-    box-shadow: var(--shadow-lg);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.18);
     border-bottom: 3px solid var(--primary-warm);
-    transform: translateY(-150%);
-    transition: transform var(--transition-normal);
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transform: translateY(-20px);
+    transition: opacity var(--transition-normal), transform var(--transition-normal), visibility var(--transition-normal);
     z-index: 999;
   }
   .main-nav.active {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
     transform: translateY(0);
   }
   .nav-list {
@@ -2239,6 +2242,16 @@ ul {
   }
   .header-actions .btn-primary {
     display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .top-bar-left span:not(.top-pill) {
+    display: none;
+  }
+  .top-bar-fullwidth {
+    justify-content: center;
+    gap: 0.6rem;
   }
   .hero-booking-bar {
     grid-template-columns: 1fr;
@@ -2253,9 +2266,5 @@ ul {
   }
   .form-row {
     grid-template-columns: 1fr;
-  }
-  .top-bar-fullwidth {
-    justify-content: center;
-    text-align: center;
   }
 }
