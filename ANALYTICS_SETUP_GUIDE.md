@@ -62,7 +62,7 @@ GTM is embedded across the `<head>` and `<body>` of all five HTML pages using co
   - `DLV - spice_name` (`spice_name`)
 
 ### 2.2 Google Analytics 4 (GA4) Implementation
-GA4 is integrated via `gtag.js` with Measurement ID `G-SLC99COOK`. Events follow Google's Enhanced Ecommerce and custom tourism schemas:
+GA4 is integrated via `gtag.js` with Measurement ID `G-36381XK1G9`. Events follow Google's Enhanced Ecommerce and custom tourism schemas:
 
 | Event Name | Event Category | Trigger Condition | Parameters Captured |
 | :--- | :--- | :--- | :--- |

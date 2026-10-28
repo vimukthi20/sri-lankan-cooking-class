@@ -17,7 +17,7 @@ const ANALYTICS_CONFIG = {
   gtmId: localStorage.getItem('cooking_gtm_id') || 'GTM-CKG2026',
 
   // Google Analytics 4 (GA4) Measurement ID (Format: G-XXXXXXXXXX)
-  ga4Id: localStorage.getItem('cooking_ga4_id') || 'G-SLC99COOK',
+  ga4Id: localStorage.getItem('cooking_ga4_id') || 'G-36381XK1G9',
 
   // Meta Pixel (Facebook Pixel) ID (15-16 digit numeric ID)
   metaPixelId: localStorage.getItem('cooking_meta_pixel_id') || '4918273645019283',
