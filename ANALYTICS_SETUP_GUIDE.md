@@ -29,7 +29,7 @@ The web application was developed using semantic **HTML5**, modern **Vanilla CSS
 ## 2. TASK 02 — IMPLEMENT TRACKING AND COLLECT DATA
 
 ### 2.1 Google Tag Manager (GTM) Setup
-GTM is embedded across the `<head>` and `<body>` of all five HTML pages using container ID `GTM-CKG2026`:
+GTM is embedded across the `<head>` and `<body>` of all five HTML pages using container ID `GTM-MTSWL2MT`:
 ```html
 <!-- Google Tag Manager Snippet -->
 <script>
@@ -37,7 +37,7 @@ GTM is embedded across the `<head>` and `<body>` of all five HTML pages using co
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
   j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-CKG2026');
+  })(window,document,'script','dataLayer','GTM-MTSWL2MT');
 </script>
 ```
 

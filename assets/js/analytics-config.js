@@ -14,7 +14,7 @@ const ANALYTICS_CONFIG = {
   productLocation: 'Cultural Triangle & Spice Belt, Sri Lanka',
 
   // Google Tag Manager (GTM) Container ID (Format: GTM-XXXXXXX)
-  gtmId: localStorage.getItem('cooking_gtm_id') || 'GTM-CKG2026',
+  gtmId: localStorage.getItem('cooking_gtm_id') || 'GTM-MTSWL2MT',
 
   // Google Analytics 4 (GA4) Measurement ID (Format: G-XXXXXXXXXX)
   ga4Id: localStorage.getItem('cooking_ga4_id') || 'G-36381XK1G9',
